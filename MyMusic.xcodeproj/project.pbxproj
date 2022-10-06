@@ -11,6 +11,8 @@
 		A33D739E28EE6E070042C913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D739D28EE6E070042C913 /* ContentView.swift */; };
 		A33D73A028EE6E080042C913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33D739F28EE6E080042C913 /* Assets.xcassets */; };
 		A33D73A328EE6E080042C913 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33D73A228EE6E080042C913 /* Preview Assets.xcassets */; };
+		A33D73AA28EEBA0D0042C913 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D73A928EEBA0D0042C913 /* SoundPlayer.swift */; };
+		A33D73AC28EEDB510042C913 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D73AB28EEDB510042C913 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A33D739D28EE6E070042C913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A33D739F28EE6E080042C913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A33D73A228EE6E080042C913 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A33D73A928EEBA0D0042C913 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		A33D73AB28EEDB510042C913 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A33D739B28EE6E070042C913 /* MyMusicApp.swift */,
 				A33D739D28EE6E070042C913 /* ContentView.swift */,
+				A33D73AB28EEDB510042C913 /* BackgroundView.swift */,
+				A33D73A928EEBA0D0042C913 /* SoundPlayer.swift */,
 				A33D739F28EE6E080042C913 /* Assets.xcassets */,
 				A33D73A128EE6E080042C913 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A33D739E28EE6E070042C913 /* ContentView.swift in Sources */,
+				A33D73AA28EEBA0D0042C913 /* SoundPlayer.swift in Sources */,
+				A33D73AC28EEDB510042C913 /* BackgroundView.swift in Sources */,
 				A33D739C28EE6E070042C913 /* MyMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

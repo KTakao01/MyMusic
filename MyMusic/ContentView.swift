@@ -8,15 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
+    let soundPlayer = SoundPlayer()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+        ZStack{
+            Image("background")
+                .resizable()
+                .ignoresSafeArea()
+                .aspectRatio(contentMode: .fill)
+            
+            HStack{
+                Button(action:{
+                    
+                    soundPlayer.cymbalPlay()
+                    
+                }){
+                    Image("cymbal")
+                }
+                 
+                Button(action: {
+                    
+                    soundPlayer.guitarPlay()
+                        
+                    }){
+                    Image("guitar")
+                    }
+                }
+            }
+    
+       }
 }
 
 struct ContentView_Previews: PreviewProvider {
